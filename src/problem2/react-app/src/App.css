@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+    background-image: url(./assets//imgs//bg-image.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+}
+.icon-35 svg{
+    width: 35px;
+    height: 35px;
+}
